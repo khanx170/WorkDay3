@@ -33,7 +33,7 @@ Partial Class Form1
         'txtFirstNum
         '
         Me.txtFirstNum.Location = New System.Drawing.Point(116, 21)
-        Me.txtFirstNum.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFirstNum.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFirstNum.Name = "txtFirstNum"
         Me.txtFirstNum.Size = New System.Drawing.Size(76, 20)
         Me.txtFirstNum.TabIndex = 0
@@ -42,7 +42,7 @@ Partial Class Form1
         'txtSecondNum
         '
         Me.txtSecondNum.Location = New System.Drawing.Point(116, 44)
-        Me.txtSecondNum.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtSecondNum.Margin = New System.Windows.Forms.Padding(2)
         Me.txtSecondNum.Name = "txtSecondNum"
         Me.txtSecondNum.Size = New System.Drawing.Size(76, 20)
         Me.txtSecondNum.TabIndex = 1
@@ -50,7 +50,7 @@ Partial Class Form1
         'btnFindLarger
         '
         Me.btnFindLarger.Location = New System.Drawing.Point(59, 74)
-        Me.btnFindLarger.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnFindLarger.Margin = New System.Windows.Forms.Padding(2)
         Me.btnFindLarger.Name = "btnFindLarger"
         Me.btnFindLarger.Size = New System.Drawing.Size(116, 23)
         Me.btnFindLarger.TabIndex = 2
@@ -80,7 +80,7 @@ Partial Class Form1
         'txtResult
         '
         Me.txtResult.Location = New System.Drawing.Point(32, 110)
-        Me.txtResult.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtResult.Margin = New System.Windows.Forms.Padding(2)
         Me.txtResult.Name = "txtResult"
         Me.txtResult.ReadOnly = True
         Me.txtResult.Size = New System.Drawing.Size(161, 20)
@@ -97,7 +97,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnFindLarger)
         Me.Controls.Add(Me.txtSecondNum)
         Me.Controls.Add(Me.txtFirstNum)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = "FindLarger"
         Me.ResumeLayout(False)
